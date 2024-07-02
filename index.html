@@ -1,15 +1,14 @@
 
 <html>
-<link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
 
 <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer.  -->
 <script>
 (function () {
 	var s = document.createElement('script');
-	s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk-loader.js';
-	s.setAttribute('data-tenant-uuid', '41a22e3a-8e30-4da9-bda6-e152c5208ee5');
-	s.setAttribute('data-domain-uuid', '80d9b94a-882b-4afa-a766-fef388676bba');
-	s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+	s.src = 'https://cdn-dev-intg-7.securiti.xyz/consent/cookie-consent-sdk-loader.js';
+	s.setAttribute('data-tenant-uuid', '0335a9f4-fe3f-4ece-ace7-4ad39c639385');
+	s.setAttribute('data-domain-uuid', '3568aed6-18bd-4ea1-adc4-489ec9b201fa');
+	s.setAttribute('data-backend-url', 'https://dev-intg-7.securiti.xyz');
 	s.setAttribute('data-skip-css', 'false');
 	s.defer = true;
 	var parent_node = document.head || document.body;
